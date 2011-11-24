@@ -1,0 +1,29 @@
+body {
+	background: url('../images/town3.jpg');
+}
+.alpha {min-width: 100%;background: rgba(253,253,253,1);box-shadow:0 1px 2px rgba(0,0,0,0.35);}
+header {width:100%;position:relative;float:left;}
+nav li {float:left;margin:24px 10px 0 10px;}
+nav li:last-child {margin:15px 10px 0 14px;margin-right:0;}
+
+.island {width:100%;}
+.island.a-home {padding:54px 0;height:100%;}
+.a-home h1 {margin:24px 0 45px 0px;}
+.a-home h4 {color:#242424;}
+.a-home p {color:#121212;font-size:1.25em;line-height: 1.25em;}
+
+.panel.intro-a, .panel.intro-b, .panel.intro-c, .panel.intro-d  {background:#f6f6f6;border-radius:5px;height:344px;box-shadow:0 0 4px rgba(0,0,0,0.35);}
+
+.island.b-home {padding-top:18px;height:100%;background:rgba(253,253,253,1);box-shadow:0 0 8px rgba(0,0,0,0.15);}
+
+.intro {text-indent:-9999px;background:url('images/intro.png') no-repeat;width:550px;height:95px;}
+
+footer {
+	min-height: 100%;
+	min-width: 100%;
+	padding: 18px 0;
+	background: #141414;
+	border-top:3px solid #2a68ed;
+}
+footer a {color:rgb(225,245,255);font-weight:600;text-shadow:1px 1px 2px rgba(0,0,0,0.4);text-decoration:none;}
+footer a:hover {color:rgb(235,255,255);}
